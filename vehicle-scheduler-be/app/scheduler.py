@@ -36,7 +36,4 @@ def knapsack(tasks, capacity):
 
     selected.reverse()
 
-    return {
-        "TotalImpact": dp[n][capacity],
-        "SelectedTasks": selected
-    }
+    return selected
